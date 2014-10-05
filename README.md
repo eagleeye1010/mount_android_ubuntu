@@ -7,9 +7,13 @@ Mount your android device on Ubuntu
 
 2) Create folder on /media to mount
 
-sudo /media/myAndroid
+sudo mkdir /media/myAndroid
 
-3) Mount your device using the script
+3) Go to sudo mode 
+
+sudo su
+
+4) Mount your device using the script (Connect your device via USB to computer before running the script)
 
 ./mount_android mount
 
